@@ -1,6 +1,6 @@
 = Wannabe Bool
 
-If string, integer, symbol and nil values wanna be a boolean value, they can.
+If string, integer, symbol and nil values wanna be a boolean value, they can with the new <b>to_b</b> method.
 
 {<img src="https://badge.fury.io/rb/wannabe_bool.png" alt="Gem Version" />}[http://badge.fury.io/rb/wannabe_bool]
 {<img src="https://travis-ci.org/prodis/wannabe_bool.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/prodis/wannabe_bool]
@@ -19,7 +19,7 @@ If string, integer, symbol and nil values wanna be a boolean value, they can.
 
 == Using
 
-Method <b>to_b</b> method is available on String, Symbol, Integer, TrueClass, FalseClass and NilClass.
+<b>to_b</b> method is available on <code>String</code>, <b><code>Symbol</code></b>, <code><b>Integer</b></code>, TrueClass, FalseClass and NilClass.
 
   require 'wannabe_bool'
 
