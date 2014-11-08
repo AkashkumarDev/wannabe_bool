@@ -1,6 +1,6 @@
 = Wannabe Bool
 
-If string, integer, symbol and nil values wanna be a boolean value, they can with the new <b>to_b</b> method.
+If <b>string</b>, <b>integer</b>, <b>symbol</b> and <b>nil</b> values wanna be a <b>boolean</b> value, they can with the new <code>to_b</code> method.
 
 {<img src="https://badge.fury.io/rb/wannabe_bool.png" alt="Gem Version" />}[http://badge.fury.io/rb/wannabe_bool]
 {<img src="https://travis-ci.org/prodis/wannabe_bool.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/prodis/wannabe_bool]
@@ -19,7 +19,7 @@ If string, integer, symbol and nil values wanna be a boolean value, they can wit
 
 == Using
 
-<b>to_b</b> method is available on <code>String</code>, <b><code>Symbol</code></b>, <code><b>Integer</b></code>, TrueClass, FalseClass and NilClass.
+<code>to_b</code> method is available on <code>String</code>, <code>Symbol</code>, <code>Integer</code>, <code>TrueClass</code>, <code>FalseClass</code> and <code>NilClass</code>.
 
   require 'wannabe_bool'
 
@@ -123,7 +123,7 @@ If string, integer, symbol and nil values wanna be a boolean value, they can wit
 - {Fernando Hamasaki de Amorim (prodis)}[http://prodis.blog.br]
 
 
-== Contributing to wannabe_bool
+== Contributing to <b>wannabe_bool</b>
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
