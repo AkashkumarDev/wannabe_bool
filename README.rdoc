@@ -23,9 +23,7 @@ If <b>string</b>, <b>integer</b>, <b>symbol</b> and <b>nil</b> values wanna be a
 
   require 'wannabe_bool'
 
-  # ----------------------------------------
-  # String
-  # ----------------------------------------
+=== String
   '1'.to_b        # => true
   't'.to_b        # => true
   'T'.to_b        # => true
@@ -67,9 +65,7 @@ If <b>string</b>, <b>integer</b>, <b>symbol</b> and <b>nil</b> values wanna be a
   'NOT'.to_b      # => false
   'wherever'.to_b # => false
 
-  # ----------------------------------------
-  # Symbol
-  # ----------------------------------------
+=== Symbol
   :1.to_b        # => true
   :t.to_b        # => true
   :T.to_b        # => true
